@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: brown;
+}
+.wrapper{
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+.item{
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    border-bottom: none;
+    /* width: 500px;
+    height: 20px; */
+    /* margin: 10px; */
+    /* padding: 10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:left
+}
+.item:hover{
+    background-color: rgb(239, 239, 239);
+}
+.items:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.432);
+}
+.domain{
+    /* border: 1px solid black; */
+    /* width: 75%; */
+    width: 100%;
+
+}
+.score{
+    width: 70px;
+
+}
+.action{
+    /* border: 1px solid black; */
+    /* width: 150px; */
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+/* .title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+.action-title{
+    /* border: 1px solid black; */
+    width: 150px;
+}
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.send-btn{
+    background-color: rgb(67, 111, 176);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.dismiss-btn{
+    background-color: rgb(220, 75, 75);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
